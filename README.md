@@ -7,7 +7,8 @@
 - Food & score
 - High score
 - Speed increase
-- Game over & restart
+- Game over and restart
+
 
 ## Tech Stack
 - HTML
