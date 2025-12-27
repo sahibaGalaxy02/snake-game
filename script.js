@@ -8,8 +8,7 @@ const rows = Math.floor(board.clientHeight / size);
 
 const blocks = {};
 let snake, food, direction, score, speed, gameLoop;
-
-// CREATE GRID
+// create gridd
 for (let y = 0; y < rows; y++) {
   for (let x = 0; x < cols; x++) {
     const div = document.createElement("div");
