@@ -19,6 +19,7 @@ for (let y = 0; y < rows; y++) {
 }
 
 // RESET GAME
+
 function restartGame() {
   snake = [
     { x: 5, y: 5 },
@@ -34,7 +35,7 @@ function restartGame() {
   gameLoop = setInterval(game, speed);
 }
 
-// FOOD
+// Food
 function spawnFood() {
   let x, y;
   do {
