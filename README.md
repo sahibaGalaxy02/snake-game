@@ -1,4 +1,4 @@
-# 🐍 Snake Game
+# 🐍 Snake Game👾👾
 
 🎮 Play here: https://galaxy-snake-game.netlify.app/
 
