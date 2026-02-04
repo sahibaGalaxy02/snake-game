@@ -52,7 +52,7 @@ function clearBoard() {
   });
 }
 
-// DRAW
+// DRAWWW
 function render() {
   clearBoard();
 
@@ -63,7 +63,7 @@ function render() {
   blocks[`${food.y},${food.x}`]?.classList.add("food");
 }
 
-// MOVE
+// MOVEEE
 function moveSnake() {
   const head = { ...snake[0] };
   if (direction === "up") head.y--;
@@ -77,7 +77,7 @@ function moveSnake() {
     return;
   }
 
-  // SELF COLLISION
+  // SELF COLLISIONN
   if (snake.some(s => s.x === head.x && s.y === head.y)) {
     endGame();
     return;
