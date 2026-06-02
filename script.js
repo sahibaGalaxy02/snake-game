@@ -8,7 +8,7 @@ const rows = Math.floor(board.clientHeight / size);
 
 const blocks = {};
 let snake, food, direction, score, speed, gameLoop;
-// create gridd
+// create grid
 for (let y = 0; y < rows; y++) {
   for (let x = 0; x < cols; x++) {
     const div = document.createElement("div");
@@ -52,7 +52,7 @@ function clearBoard() {
   });
 }
 
-// DRAWWW
+// DRAW
 function render() {
   clearBoard();
 
@@ -63,7 +63,7 @@ function render() {
   blocks[`${food.y},${food.x}`]?.classList.add("food");
 }
 
-// MOVEEE
+// MOVE
 function moveSnake() {
   const head = { ...snake[0] };
   if (direction === "up") head.y--;
@@ -77,7 +77,7 @@ function moveSnake() {
     return;
   }
 
-  // SELF COLLISIONN
+  // SELF COLLISION
   if (snake.some(s => s.x === head.x && s.y === head.y)) {
     endGame();
     return;
