@@ -7,6 +7,7 @@
 - Food & score
 - High score
 - Speed increase
+- Key movements
 - Game over and restart
 
 
